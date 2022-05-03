@@ -15,6 +15,13 @@ class Jugador:
 
 
 #metodos
-        def MoverJugador(direccion:int):_void
-        def Comer(comida:int):_void
-    
+        def MoverJugador(direccion:int):
+            
+            pass
+            
+            def Comer(comida:int):
+
+
+
+
+#no se como quitar esto 

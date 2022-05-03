@@ -11,7 +11,7 @@ class Puntos:
     
     #creamos inicializador 
 
-    def __init__(self,PuntoNormal:int,PuntoEspecial:int):
+    def __init__(self,PuntoNormal,PuntoEspecial):
         self.PuntoNormal=PuntoNormal
         self.PuntoEspecial=PuntoEspecial   
     
@@ -20,3 +20,4 @@ class Puntos:
         TotalPunto=self.PuntoEspecial+self.PuntoNormal
         
         return TotalPunto
+        

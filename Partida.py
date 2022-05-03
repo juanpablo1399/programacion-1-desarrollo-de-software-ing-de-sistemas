@@ -2,6 +2,7 @@
 from array import array
 from ast import Str
 from ctypes.wintypes import FLOAT
+from webbrowser import get
 from Comida import Comida
 from PacMan import  PacMan
 from Mapa   import  Mapa
@@ -24,18 +25,22 @@ class partida:
     # JugadorPartida:Jugador
     # Tiempo:float
     # Puntaje:Puntos
-    # PacMan1:PacMan
+    # PacMan:PacMan
     Fantasma:ArrayType("Fantasma")
     # Mundo:Mapa
-    # Vida:bool
+    #Vida:bool
 
 
     #creamos inicializador 
 
-    def __init__(self,Comida: ArrayType("Comida"), JugadorPartida:Jugador , 
-    Tiempo:float,Puntaje:Puntos, Fantasma:ArrayType("Fantasma"), Mundo:Mapa, Vida:bool ):
+    def __init__(self, JugadorPartida:Jugador , 
+    Tiempo:float,Puntaje:Puntos, Mundo:Mapa, Vida:bool ):
     
-
+        def GetJugadorPartida(self):
+            return self.JugadorPartida
+    
+    def SetJugadorPartida(self,JugadorPartida):
+        self.JugadorPartida = JugadorPartida
 
 
         #compocision
@@ -52,13 +57,13 @@ class partida:
         
         
         
-        
-        
-        
         #Metodos
         
-        def JugarPartida():str
+        
+        pass
+
+        def JugarPartida():str 
 
         def TerminarPartida():str
-        
+
         def Reaparecer():str

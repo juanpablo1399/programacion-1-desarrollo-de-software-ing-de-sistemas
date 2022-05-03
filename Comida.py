@@ -12,5 +12,5 @@ class Comida:
 
     #definimos metodos 
     
-     def IcrementarPuntos():int
-        
+        def IcrementarPuntos():int
+
