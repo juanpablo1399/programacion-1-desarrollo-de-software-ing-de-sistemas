@@ -4,6 +4,9 @@ from typing_extensions import Self
 
 
 class PacMan:
+    
+    #creamos atributos
+    
     Color:str
     Tamaño:int
     IncremetoX:int
@@ -16,8 +19,12 @@ class PacMan:
 
     def __init__(self, Color:str ,Tamaño:int ,IncremetoX:int ,IncremetoY:int):
 
-    # definimos metodos 
+            self.Color= Color
+            self.Tamaño=Tamaño
+            self.IncremetoX=IncremetoX
+            self.IncremetoY=IncremetoY
 
-        def MovimientoX():int
-    
-        def MovimientoY():int
+# definimos metodos 
+
+def MovimientoX():int
+def MovimientoY():int

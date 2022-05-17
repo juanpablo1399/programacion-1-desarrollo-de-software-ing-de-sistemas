@@ -8,9 +8,15 @@ class Comida:
 
     #creamos inicializador 
 
-    def __init__(self, Cereza:int, Basica:int, Dots: int):
+        def __init__(self, Cereza:int, Basica:int, Dots: int):
 
-    #definimos metodos 
+
+            self.Cereza= Cereza
+            self.Basica= Basica
+            self.Dots= Dots
     
-        def IcrementarPuntos():int
+    
+#definimos metodos 
+
+def IcrementarPuntos():int
 

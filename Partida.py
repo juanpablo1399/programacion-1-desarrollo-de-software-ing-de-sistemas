@@ -62,8 +62,8 @@ class partida:
         
         pass
 
-        def JugarPartida():str 
+def JugarPartida():str 
+    
+def TerminarPartida():str
 
-        def TerminarPartida():str
-
-        def Reaparecer():str
+def Reaparecer():str
