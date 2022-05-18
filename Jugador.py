@@ -1,8 +1,3 @@
-from inspect import _void
-from turtle import st
-
-#creamos la clase
-
 class Jugador:
 
     #atributos
@@ -18,7 +13,4 @@ class Jugador:
 #metodos
 def MoverJugador(direccion:int):
 
-    pass
-
-def Comer(comida:int):
-
+    def Comer(comida:int):
