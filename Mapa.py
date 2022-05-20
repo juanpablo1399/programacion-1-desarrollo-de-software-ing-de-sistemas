@@ -23,8 +23,8 @@ class Mapa:
         #METODOS 
     
 def Mover(direccion:int):int 
-def CambiarMapa(puntos:int):int
-        
+
+
 
 
 
