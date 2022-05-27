@@ -11,3 +11,5 @@ objectPartida=Partida(Jugador,Puntos)
 
 
 
+
+
