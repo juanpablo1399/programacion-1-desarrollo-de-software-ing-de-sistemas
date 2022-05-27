@@ -16,13 +16,13 @@ class Mapa:
         # creamos inicializador 
 
     def __init__(self,PosicionMapax:int,PosicionMapay:int):
-            self.PosicionMapax= PosicionMapax
-            self.PosicionMapay=PosicionMapay
-            self.Pared
+        self.PosicionMapax= PosicionMapax
+        self.PosicionMapay=PosicionMapay
+        self.Pared
 
         #METODOS 
     
-def Mover(direccion:int):int 
+    def Mover(direccion:int):int 
 
 
 

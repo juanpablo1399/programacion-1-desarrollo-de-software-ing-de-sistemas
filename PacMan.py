@@ -7,10 +7,10 @@ class PacMan:
     
     #creamos atributos
     
-    Color:str
-    Tamaño:int
-    IncremetoX:int
-    IncremetoY:int
+#Color:str
+# Tamaño:int
+#IncremetoX:int
+#IncremetoY:int
 
 
 # creamos  inicializador 
@@ -18,14 +18,13 @@ class PacMan:
 
 
     def __init__(self, Color:str ,Tamaño:int ,IncremetoX:int ,IncremetoY:int):
-
-            self.Color= Color
-            self.Tamaño=Tamaño
-            self.IncremetoX=IncremetoX
-            self.IncremetoY=IncremetoY
+        self.Color= Color
+        self.Tamaño=Tamaño
+        self.IncremetoX=IncremetoX
+        self.IncremetoY=IncremetoY
 
 # definimos metodos 
 
-def MovimientoX():int
+    def MovimientoX(self):int
         
-def MovimientoY():int
+    def MovimientoY(self):int
