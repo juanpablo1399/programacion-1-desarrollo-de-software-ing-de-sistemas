@@ -58,12 +58,8 @@ class partida:
         
         
         #Metodos
-        
-        
-        pass
 
-def JugarPartida():str 
+    def JugarPartida(self):str 
     
-def TerminarPartida():str
-
-def Reaparecer():str
+    def TerminarPartida(self):str
+    def Reaparecer():str
