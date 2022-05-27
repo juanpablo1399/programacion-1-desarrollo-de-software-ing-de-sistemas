@@ -62,4 +62,5 @@ class partida:
     def JugarPartida(self):str 
     
     def TerminarPartida(self):str
-    def Reaparecer():str
+    
+    def Reaparecer(self):str

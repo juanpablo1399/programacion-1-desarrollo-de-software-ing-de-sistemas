@@ -26,6 +26,6 @@ class PacMan:
 
 # definimos metodos 
 
-def MovimientoX():int
+def MovimientoX(self):int
         
-def MovimientoY():int
+def MovimientoY(self):int

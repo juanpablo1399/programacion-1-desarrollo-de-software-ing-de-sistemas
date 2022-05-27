@@ -1,16 +1,21 @@
-class Jugador:
+from inspect import _void
+
+from Usuario import Usuario
+
+
+class Jugador(Usuario):
 
     #atributos
-    # NombreUsuario:str
+    # NickName:str
+    #Contraseña
 
     # inicializador 
 
-    def __init__(self,NombreUsuario:str):
-            self.NombreUsuario= NombreUsuario
+    def __init__(self,NickName:str,Contraseña:str):
+        self.NickName= NickName
+        self.Contraseña=Contraseña
 
 
 
 #metodos
-def MoverJugador(direccion:int):
-
-    def Comer(comida:int):
+    def PuntosJugador(cantidadPuntos:str):str

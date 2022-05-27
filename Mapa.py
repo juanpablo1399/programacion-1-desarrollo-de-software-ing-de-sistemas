@@ -22,7 +22,7 @@ class Mapa:
 
         #METODOS 
     
-def Mover(direccion:int):int 
+def Mover(self,direccion:int):int 
 
 
 
