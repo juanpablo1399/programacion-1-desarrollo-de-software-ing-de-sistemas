@@ -3,6 +3,8 @@
 from Jugador import Jugador
 import Partida
 import csv
+import Usuario
+import Administrador  
 
 from Puntos import Puntos
 

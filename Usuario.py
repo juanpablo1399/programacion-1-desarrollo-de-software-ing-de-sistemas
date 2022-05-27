@@ -1,17 +1,19 @@
 from inspect import _void
 
 
-class Usuario:
-
-    #Id:Int
-    #NombreUsuario:str
-
-    def __init__(self,Id:int,NombreUsuario:str):
-        self.Id=Id
-        self.NombreUsuario=NombreUsuario
-
+class Usuario(object):
+    "Clase que representa una persona."
+    
+    def __init__(self, identificacion, nombre, apellido):
+        "Constructor de Persona"
+    
+        self.Id = Id
+    
+        self.nombre = nombre
+    
+        self.apellido = apellido
     
     
-    def CrearUsuario(self):_void
-    
-    def CambiarUsuario(self):_void
+    def __str__(self):
+        return " %s: %s, %s" 
+
