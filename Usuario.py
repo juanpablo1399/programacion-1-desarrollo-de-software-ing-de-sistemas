@@ -35,6 +35,9 @@ if opcion == "1" :
 
 
         print ("se guardo correctamente:"   "+ Nombre +","+ Apellido +","+ Contraseña + ") 
+
+        UsuarioArchivo.write("Id","Nombre","Apellido","\n")
+        
 else:
     print("elija  una opcion ")
  

@@ -39,6 +39,8 @@ if opcion == "1" :
         Contraseña = input("digite su contraseña:    ")
 
 
-        print ("se guardo correctamente:"   "+ NickName+","Contraseña") 
+        print ("se guardo correctamente:"   "+ NickName+","Contraseña")
+
+        JugadorArchivo.write("NicName","Contraseña","\n")
 else:
     print("elija  una opcion ")

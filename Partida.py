@@ -59,8 +59,43 @@ class partida:
         
         #Metodos
 
-    def JugarPartida(self):str 
+    def JugarPartida(self):
     
-    def TerminarPartida(self):str
+        return("Iniciar partida")
     
-    def Reaparecer(self):str
+    def TerminarPartida(self):
+
+        return("Finalizar partida")
+    
+    def Reaparecer(self):
+        
+        return("desea reaparecer ")
+
+
+
+
+
+        print  ("MENU\n\n1)-Nuevo\n2-most")
+
+
+
+
+        print ('registro\n')
+
+        archivo = open("PartidaArchivo.csv","a")
+
+        
+        JugadorPartida = input("masterchief:")
+
+        Tiempo = input("ha jugado 7 minutos :")
+        
+        Puntos = input("su puntaje es 500 ")
+
+
+        print ("se guardo correctamente:"   "+ Tiempo +","Puntos") 
+
+
+
+
+
+    

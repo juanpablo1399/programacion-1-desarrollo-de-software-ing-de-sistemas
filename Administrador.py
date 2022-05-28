@@ -52,6 +52,7 @@ if opcion == "1" :
 
 
         print ("se guardo correctamente:"   "+ Cedula+","Clave") 
+        AdministradorArchivo.write("Cedula","Clave","\n")
 else:
     print("elija  una opcion ")
 
