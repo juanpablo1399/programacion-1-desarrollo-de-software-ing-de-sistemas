@@ -75,24 +75,28 @@ class partida:
 
 
 
-        print  ("MENU\n\n1)-Nuevo\n2-most")
+print  ("MENU\n\n1)-Nuevo\n2-most")
 
 
 
 
-        print ('registro\n')
-
-        archivo = open("PartidaArchivo.csv","a")
+print ('registro\n')
+archivo = open("PartidaArchivo.csv","a")
 
         
-        JugadorPartida = input("masterchief:")
+JugadorPartida = input("masterchief:")
 
-        Tiempo = input("ha jugado 7 minutos :")
+Tiempojuego = input("ha jugado 7 minutos :")
         
-        Puntos = input("su puntaje es 500 ")
+        
+Puntosjuego = input("su puntaje es 500 ")
+        
+PartidaArchivo.write(NicName,Contraseña)
 
+PartidaArchivo.close()
 
-        print ("se guardo correctamente:"   "+ Tiempo +","Puntos") 
+print ("se guardo correctamente:" ,Tiempojuego,Puntosjuego   ) 
+
 
 
 

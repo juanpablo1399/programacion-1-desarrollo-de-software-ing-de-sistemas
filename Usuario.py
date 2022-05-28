@@ -1,11 +1,11 @@
 from inspect import _void
 
 
-class Usuario(object):
-    "Clase que representa una persona."
+class Usuario():
+    "Clase que representa una Usuario."
     
     def __init__(self, Id, Nombre, Apellido):
-        "Constructor de Persona"
+        "Constructor de Usuario"
     
         self.Id = Id
     
@@ -36,9 +36,13 @@ if opcion == "1" :
 
         print ("se guardo correctamente:"   "+ Nombre +","+ Apellido +","+ Contraseña + ") 
 
-        UsuarioArchivo.write("Id","Nombre","Apellido","\n")
+        UsuarioArchivo.write('Id')
+        UsuarioArchivo.write('Nombre')
+        UsuarioArchivo.write('Apellido')
         
+        UsuarioArchivo.close()
+
 else:
     print("elija  una opcion ")
- 
+
 

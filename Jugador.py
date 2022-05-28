@@ -42,5 +42,8 @@ if opcion == "1" :
         print ("se guardo correctamente:"   "+ NickName+","Contraseña")
 
         JugadorArchivo.write("NicName","Contraseña","\n")
+        
+
+        JugadorArchivo.close()
 else:
     print("elija  una opcion ")

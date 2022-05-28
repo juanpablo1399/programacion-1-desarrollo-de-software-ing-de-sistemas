@@ -29,3 +29,4 @@ class PacMan:
 def MovimientoX(self):int
         
 def MovimientoY(self):int
+
