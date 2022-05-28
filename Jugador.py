@@ -1,3 +1,5 @@
+from Usuario import Usuario
+
 class Jugador(Usuario):
 
     #atributos
@@ -26,15 +28,15 @@ class Jugador(Usuario):
 
 print  ("MENU\n\n1)-Nuevo\n2-most")
 
-opcion= rawinput("elige una opcion")
+opcion= input("elige una opcion")
 
 if opcion == "1" :
         print ('registro\n')
 
         archivo = open("JugadorArchivo.csv","a")
 
-        NickName = raw_input("ingrese el NickName:   ")
-        Contraseña = raw_input("digite su contraseña:    ")
+        NickName = input("ingrese el NickName:   ")
+        Contraseña = input("digite su contraseña:    ")
 
 
         print ("se guardo correctamente:"   "+ NickName+","Contraseña") 
