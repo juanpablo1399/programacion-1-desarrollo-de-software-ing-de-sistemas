@@ -59,6 +59,15 @@ if opcion == "1" :
         AdministradorArchivo.write(clave)
 
         AdministradorArchivo.close()
+
+elif opcion =="2":
+    print("mostrar registros")
+    archivo = open("AdministradorArchivo.csv",)
+
+    archivo.read()
+
+    
+    
 else:
     print("elija  una opcion ")
 

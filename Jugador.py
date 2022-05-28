@@ -45,5 +45,13 @@ if opcion == "1" :
         
 
         JugadorArchivo.close()
+
+elif opcion =="2":
+    print("mostrar registros")
+    archivo = open("JugadorArchivo.csv",)
+
+    archivo.read()
+
+
 else:
     print("elija  una opcion ")

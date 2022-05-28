@@ -42,6 +42,15 @@ if opcion == "1" :
         
         UsuarioArchivo.close()
 
+elif opcion == "2":
+    print("mostrar registros")
+    archivo = open("UsuarioArchivo.csv",)
+
+    archivo.read()
+
+
+
+
 else:
     print("elija  una opcion ")
 
